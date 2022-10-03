@@ -1,33 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>insta485</title>
+    <title>nithisha</title>
     <meta charset="UTF-8">
 </head>
 <body>
-    <a href="/">
-        <img src="/uploads/logo.png" alt="Insta Logo" style="width:271.5px;height:75px;">
-    </a> <br>
-    <a href="/explore/">explore</a> <br>
-    <a href="/users/{{logname}}/">{{logname}}</a> <br><br>
-
-    {% for post in posts %}
-         <a href="/users/{{post['owner']}}/">{{post['owner']}}</a> <br>
-         <a href="/users/{{post['owner']}}/">
-            <img src="{{post['owner_img_url']}}" alt="awdeoriopp" style="width:75px;height:75px;">
-        </a> <br>
-        <a href="/posts/{{post['postid']}}/">{{post['timestamp']}}</a> <br>
-        <img src="{{post['img_url']}}" alt="awdeoriop1" style="width:600px;height:449px;"><br>
-        {% if post['likes'] == 1 %}
-            1 like <br>
-        {% else %}
-            {{post['likes']}} likes<br>
-        {% endif %}
-        {% for cmt in post['comments'] %}
-            <a href="/users/{{cmt['owner']}}/">{{cmt['owner']}}</a> {{cmt['text']}}<br>
-        {% endfor %}
-        <br>
-    {% endfor %}
-    <br>
+    Hello world! <br>
 </body>
 </html>
