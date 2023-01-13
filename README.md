@@ -1,5 +1,5 @@
 # Personal Portfolio 💻 
-> A description of my interests, skills, and experience in software development.
+> A description of my skills and experience in software development.
 
 > https://nithishakumar.github.io/
 
